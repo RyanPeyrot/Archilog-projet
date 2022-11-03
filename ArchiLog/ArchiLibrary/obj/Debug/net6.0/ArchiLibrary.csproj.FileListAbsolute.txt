@@ -1,0 +1,12 @@
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLibrary\bin\Debug\net6.0\ArchiLibrary.deps.json
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLibrary\bin\Debug\net6.0\ArchiLibrary.dll
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLibrary\bin\Debug\net6.0\ArchiLibrary.pdb
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLibrary\obj\Debug\net6.0\ArchiLibrary.csproj.AssemblyReference.cache
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLibrary\obj\Debug\net6.0\ArchiLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLibrary\obj\Debug\net6.0\ArchiLibrary.AssemblyInfoInputs.cache
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLibrary\obj\Debug\net6.0\ArchiLibrary.AssemblyInfo.cs
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLibrary\obj\Debug\net6.0\ArchiLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLibrary\obj\Debug\net6.0\ArchiLibrary.dll
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLibrary\obj\Debug\net6.0\refint\ArchiLibrary.dll
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLibrary\obj\Debug\net6.0\ArchiLibrary.pdb
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLibrary\obj\Debug\net6.0\ref\ArchiLibrary.dll

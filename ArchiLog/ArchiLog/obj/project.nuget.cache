@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xatpTPlu4GbaJSXurIPp01PtzL+4mISKKdNcsfIVl5DagYoHkfg6AhpYtTRY/JsdU6zckQL6rizxQKexGK/MvQ==",
+  "dgSpecHash": "DkRbXTTD1uCo4ofynjJElBHnx+6geVg5wz7mDmz9V4CymZOvLjfBjEdmUEBNRCyYImcpAgoZnilseGNRuQxiOw==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Downloads\\archilog22-main\\ArchiLog\\ArchiLog\\ArchiLog.csproj",
+  "projectFilePath": "C:\\Users\\ryanp\\Source\\Repos\\RyanPeyrot\\Archilog-projet\\ArchiLog\\ArchiLog\\ArchiLog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ryanp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ryanp\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

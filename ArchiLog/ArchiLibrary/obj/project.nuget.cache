@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nAA0qeghAhqPBqPtoaSjrI1nhHjSjKR/k1zTR+OXDNg67GlR42Hr58Wvv9/GVT7fxB1AUD35Gmfc06iqauXXOg==",
+  "dgSpecHash": "9LFFTVP2m8fxTxuAsUAdJ1i4zQXntqkTuK7quSfDv4i/vDGS00HaxvdMk3xu5oAE1sSOoyAAiwmyqfmgXbtCOw==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Downloads\\archilog22-main\\ArchiLog\\ArchiLibrary\\ArchiLibrary.csproj",
+  "projectFilePath": "C:\\Users\\ryanp\\Source\\Repos\\RyanPeyrot\\Archilog-projet\\ArchiLog\\ArchiLibrary\\ArchiLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ryanp\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ryanp\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
