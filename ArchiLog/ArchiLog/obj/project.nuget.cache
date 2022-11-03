@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DkRbXTTD1uCo4ofynjJElBHnx+6geVg5wz7mDmz9V4CymZOvLjfBjEdmUEBNRCyYImcpAgoZnilseGNRuQxiOw==",
+  "dgSpecHash": "F2wxp1+fqpv/Bq6jMfixHu7H4wxl+UuXea+OxuPwkxVl9WwCFiGdJuKyoYRubu+ibSIb4/7Y9gKqcedUbHVZKA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ryanp\\Source\\Repos\\RyanPeyrot\\Archilog-projet\\ArchiLog\\ArchiLog\\ArchiLog.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\ryanp\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\ryanp\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ryanp\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.5\\microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
+    "C:\\Users\\ryanp\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\ryanp\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\ryanp\\.nuget\\packages\\microsoft.aspnetcore.responsecaching.abstractions\\2.2.0\\microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ryanp\\.nuget\\packages\\microsoft.aspnetcore.routing\\2.2.0\\microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",

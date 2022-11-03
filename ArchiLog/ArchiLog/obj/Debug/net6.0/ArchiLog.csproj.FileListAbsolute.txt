@@ -266,3 +266,4 @@ C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\obj\Deb
 C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\obj\Debug\net6.0\ArchiLog.pdb
 C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\obj\Debug\net6.0\ArchiLog.genruntimeconfig.cache
 C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\obj\Debug\net6.0\ref\ArchiLog.dll
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll

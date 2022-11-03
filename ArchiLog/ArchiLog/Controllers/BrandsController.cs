@@ -6,19 +6,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ArchiLog.Controllers
 {
-    
-    [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/[controller]/v{version:apiVersion}/")]
     public class BrandsController : BaseController<ArchiLogDbContext, Brand>
     {
-        public BrandsController(ArchiLogDbContext context):base(context)
+        public BrandsController(ArchiLogDbContext context) : base(context)
         {
         }
-
-  
-
-        
-
-        
-
     }
 }
