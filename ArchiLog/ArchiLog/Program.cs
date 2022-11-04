@@ -1,5 +1,14 @@
 using ArchiLog.Data;
+using Microsoft.AspNetCore.HttpLogging;
 using Microsoft.AspNetCore.Mvc.Versioning;
+using Serilog;
+using Serilog.Events;
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+    .Enrich.FromLogContext()
+    .WriteTo.Console()
+    .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +18,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddApiVersioning(options =>
 {
     options.AssumeDefaultVersionWhenUnspecified = true;
@@ -21,8 +31,11 @@ builder.Services.AddApiVersioning(options =>
 });
 
 builder.Services.AddDbContext<ArchiLogDbContext>();
+builder.Host.UseSerilog();
 
 var app = builder.Build();
+
+Log.Information("Starting web host");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
