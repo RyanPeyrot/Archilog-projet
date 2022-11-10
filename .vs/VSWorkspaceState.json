@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ArchiLog",
+    "\\ArchiLog\\ArchiLog"
   ],
+  "SelectedNode": "\\ArchiLog\\ArchiLog\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

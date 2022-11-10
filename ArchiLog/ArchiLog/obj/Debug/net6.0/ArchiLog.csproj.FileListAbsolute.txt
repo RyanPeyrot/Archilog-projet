@@ -544,3 +544,5 @@ C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\Archi
 C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\logs\logs.json
+C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\logs\logs20221104.json

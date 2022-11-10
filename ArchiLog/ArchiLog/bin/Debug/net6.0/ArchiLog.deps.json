@@ -15,6 +15,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.10",
           "Serilog.AspNetCore": "6.0.1",
+          "Serilog.Formatting.Compact": "1.1.0",
           "Swashbuckle.AspNetCore": "6.3.0"
         },
         "runtime": {
