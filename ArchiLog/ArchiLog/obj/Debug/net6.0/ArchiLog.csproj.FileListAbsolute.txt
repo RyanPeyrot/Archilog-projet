@@ -28,7 +28,6 @@ C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Deb
 C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
 C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
-C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -544,5 +543,12 @@ C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\Archi
 C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Sinks.File.dll
-C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\logs\logs.json
-C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\logs\logs20221104.json
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.dll
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Sinks.File.dll
