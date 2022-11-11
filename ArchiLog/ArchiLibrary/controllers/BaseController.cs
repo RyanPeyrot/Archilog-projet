@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Http.Extensions;
 namespace ArchiLibrary.controllers
 {
     [ApiController]
+    [Route("api/[controller]/v{version:apiVersion}/")]
     public abstract class BaseController<TContext, TModel> : ControllerBase where TContext : BaseDbContext where TModel : BaseModel
     {
         protected readonly TContext _context;
@@ -97,6 +98,14 @@ namespace ArchiLibrary.controllers
             _context.Remove(item);
             await _context.SaveChangesAsync();
             return item;
+        }
+
+       [HttpGet]
+       [Route("fields=id")]
+        public async Task<IEnumerable<int>> GetAllId()
+        {
+            var results = await _context.Set<TModel>().Where(x => x.Active).Select(x=>x.ID).ToListAsync();
+            return results;
         }
 
         private bool ItemExists(int id)
