@@ -13,6 +13,6 @@ namespace ArchiLog.Models
         public int BrandID { get; set; }
         [ForeignKey("BrandID")]
         public Brand? Brand { get; set; }
-
+        public DateTime CreationDate { get; set; }
     }
 }
