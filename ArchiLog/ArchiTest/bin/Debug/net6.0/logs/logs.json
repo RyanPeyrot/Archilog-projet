@@ -1,7 +1,0 @@
-{"@t":"2022-11-04T09:25:07.1940810Z","@mt":"Starting web host"}
-{"@t":"2022-11-04T09:25:07.6793440Z","@mt":"Now listening on: {address}","address":"https://localhost:7157","EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
-{"@t":"2022-11-04T09:25:07.6860439Z","@mt":"Now listening on: {address}","address":"http://localhost:5157","EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
-{"@t":"2022-11-04T09:25:07.6890246Z","@mt":"Application started. Press Ctrl+C to shut down.","SourceContext":"Microsoft.Hosting.Lifetime"}
-{"@t":"2022-11-04T09:25:07.6895428Z","@mt":"Hosting environment: {envName}","envName":"Development","SourceContext":"Microsoft.Hosting.Lifetime"}
-{"@t":"2022-11-04T09:25:07.6901315Z","@mt":"Content root path: {contentRoot}","contentRoot":"C:\\Users\\jerem\\Documents\\2022-2023\\Architecture_logicielle\\Archilog-projet\\ArchiLog\\ArchiLog\\","SourceContext":"Microsoft.Hosting.Lifetime"}
-{"@t":"2022-11-04T09:25:57.6876354Z","@mt":"Application is shutting down...","SourceContext":"Microsoft.Hosting.Lifetime"}
