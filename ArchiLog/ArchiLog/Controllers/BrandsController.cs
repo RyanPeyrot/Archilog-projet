@@ -7,7 +7,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ArchiLog.Controllers
 {
-    [ApiVersion("1.0")]
     [Route("api/[controller]/v{version:apiVersion}/")]
     public class BrandsController : BaseController<ArchiLogDbContext, Brand>
     {
@@ -16,6 +15,7 @@ namespace ArchiLog.Controllers
         }
 
         [HttpGet]
+        [MapToApiVersion("1.0")]
         [Route("Search/")]
         public async Task<IEnumerable<Brand>> SearchName([FromQuery] string name)
         {
