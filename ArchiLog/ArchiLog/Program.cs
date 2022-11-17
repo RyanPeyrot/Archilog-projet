@@ -4,6 +4,12 @@ using Microsoft.AspNetCore.Mvc.Versioning;
 using Serilog;
 using Serilog.Events;
 using Serilog.Formatting.Compact;
+using ArchiLibrary.Authentification;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.IdentityModel.Tokens;
+using System.Security.Cryptography;
+using System.Text;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Override("Microsoft.AspNetCore", LogEventLevel.Information)
@@ -31,6 +37,26 @@ builder.Services.AddApiVersioning(options =>
         new HeaderApiVersionReader("X-Version"),
         new MediaTypeApiVersionReader("ver"));
 });
+
+/* Connexion avec le token JWT */
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = false,
+        ValidateAudience = false,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    };
+});
+
+builder.Services.AddTransient<IJwtAuthentificationServices, JwtAuthentificationServices>();
 
 builder.Services.AddDbContext<ArchiLogDbContext>();
 builder.Host.UseSerilog();

@@ -14,7 +14,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http.Extensions;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
-
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ArchiLibrary.controllers
 {
@@ -22,6 +23,7 @@ namespace ArchiLibrary.controllers
     [Route("api/[controller]/v{version:apiVersion}/")]
     [ApiVersion("1.0")]
     [ApiVersion("2.0")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public abstract class BaseController<TContext, TModel> : ControllerBase where TContext : BaseDbContext where TModel : BaseModel
     {
         protected readonly TContext _context;
