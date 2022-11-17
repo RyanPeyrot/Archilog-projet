@@ -20,6 +20,8 @@ namespace ArchiLibrary.controllers
 {
     [ApiController]
     [Route("api/[controller]/v{version:apiVersion}/")]
+    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
     public abstract class BaseController<TContext, TModel> : ControllerBase where TContext : BaseDbContext where TModel : BaseModel
     {
         protected readonly TContext _context;
@@ -30,6 +32,7 @@ namespace ArchiLibrary.controllers
         }
 
         [HttpGet]
+        [MapToApiVersion("1.0")]
         public async Task<IEnumerable<TModel>> GetAll([FromQuery] Params param)
         {
             var newArrayParam = new Dictionary<string, string>();
@@ -67,6 +70,7 @@ namespace ArchiLibrary.controllers
         }
 
         [HttpGet("{id}")]// /api/{item}/3
+        [MapToApiVersion("1.0")]
         public async Task<ActionResult<TModel>> GetById([FromRoute] int id)
         {
             var item = await _context.Set<TModel>().SingleOrDefaultAsync(x => x.ID == id);
@@ -101,6 +105,7 @@ namespace ArchiLibrary.controllers
         }
 
         [HttpDelete("{id}")]
+        [MapToApiVersion("2.0")]
         public async Task<ActionResult<TModel>> DeleteItem([FromRoute] int id)
         {
             var item = await _context.Set<TModel>().FindAsync(id);
@@ -114,6 +119,7 @@ namespace ArchiLibrary.controllers
 
        [HttpGet]
        [Route("fields=id")]
+       [MapToApiVersion("2.0")]
         public async Task<IEnumerable<int>> GetAllId()
         {
             var results = await _context.Set<TModel>().Where(x => x.Active).Select(x=>x.ID).ToListAsync();
