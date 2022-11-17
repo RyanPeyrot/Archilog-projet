@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aubin\\Documents\\GitHub\\Archilog-projet\\ArchiLog\\ArchiLibrary\\ArchiLibrary.csproj": {}
+    "C:\\Users\\ryanp\\Source\\Repos\\Archilog-projet2\\ArchiLog\\ArchiLibrary\\ArchiLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aubin\\Documents\\GitHub\\Archilog-projet\\ArchiLog\\ArchiLibrary\\ArchiLibrary.csproj": {
+    "C:\\Users\\ryanp\\Source\\Repos\\Archilog-projet2\\ArchiLog\\ArchiLibrary\\ArchiLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aubin\\Documents\\GitHub\\Archilog-projet\\ArchiLog\\ArchiLibrary\\ArchiLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\ryanp\\Source\\Repos\\Archilog-projet2\\ArchiLog\\ArchiLibrary\\ArchiLibrary.csproj",
         "projectName": "ArchiLibrary",
-        "projectPath": "C:\\Users\\aubin\\Documents\\GitHub\\Archilog-projet\\ArchiLog\\ArchiLibrary\\ArchiLibrary.csproj",
-        "packagesPath": "C:\\Users\\aubin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aubin\\Documents\\GitHub\\Archilog-projet\\ArchiLog\\ArchiLibrary\\obj\\",
+        "projectPath": "C:\\Users\\ryanp\\Source\\Repos\\Archilog-projet2\\ArchiLog\\ArchiLibrary\\ArchiLibrary.csproj",
+        "packagesPath": "C:\\Users\\ryanp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ryanp\\Source\\Repos\\Archilog-projet2\\ArchiLog\\ArchiLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aubin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ryanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
