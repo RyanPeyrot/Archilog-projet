@@ -15,7 +15,7 @@ namespace ArchiLog.Controllers
     [Route("api/[controller]/v{version:apiVersion}/")]
     public class CarsController : BaseController<ArchiLogDbContext, Car>
     {
-        public CarsController(ArchiLogDbContext context):base(context)
+        public CarsController(ArchiLogDbContext context) : base(context)
         {
         }
     }

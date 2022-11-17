@@ -552,3 +552,8 @@ C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Deb
 C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\ryanp\Source\Repos\RyanPeyrot\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\logs\logs.json
+C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\logs\logs20221104.json
+C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\logs\logs20221110.json
+C:\Users\jerem\Documents\2022-2023\Architecture_logicielle\Archilog-projet\ArchiLog\ArchiLog\bin\Debug\net6.0\logs\logs20221116.json

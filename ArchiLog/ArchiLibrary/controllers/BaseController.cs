@@ -13,10 +13,15 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http.Extensions;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Serilog;
+using Microsoft.VisualStudio.Web.CodeGeneration;
 
 namespace ArchiLibrary.controllers
 {
     [ApiController]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public abstract class BaseController<TContext, TModel> : ControllerBase where TContext : BaseDbContext where TModel : BaseModel
     {
         protected readonly TContext _context;
@@ -27,9 +32,9 @@ namespace ArchiLibrary.controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IEnumerable<TModel>> GetAll([FromQuery] Params param)
         {
-
             int totalItems = _context.Set<TModel>().Count();
             int acceptRange = totalItems < 50 ? totalItems : 50;
 
@@ -55,6 +60,7 @@ namespace ArchiLibrary.controllers
         }
 
         [HttpGet("{id}")]// /api/{item}/3
+        [Authorize]
         public async Task<ActionResult<TModel>> GetById([FromRoute] int id)
         {
             var item = await _context.Set<TModel>().SingleOrDefaultAsync(x => x.ID == id);
@@ -64,6 +70,7 @@ namespace ArchiLibrary.controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> PostItem([FromBody] TModel item)
         {
             item.Active = true;
@@ -74,6 +81,7 @@ namespace ArchiLibrary.controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<ActionResult<TModel>> PutItem([FromRoute] int id, [FromBody] TModel item)
         {
             if (id != item.ID)
@@ -89,6 +97,7 @@ namespace ArchiLibrary.controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<ActionResult<TModel>> DeleteItem([FromRoute] int id)
         {
             var item = await _context.Set<TModel>().FindAsync(id);
